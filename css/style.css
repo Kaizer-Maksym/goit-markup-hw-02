@@ -1,0 +1,127 @@
+/* основной цвет текста #757575 */
+/* вторичный цыет текста #212121; */
+
+/* белый #FFFFFF; */
+
+/*текст футера rgba(255, 255, 255, 0.6); */
+
+/* цвет текста логотипа #000000; #2196F3; */
+/* акцент #2196F3; */
+/* фон футера #2F303A */
+/* вторичный цвет фона #F5F4FA */
+
+:root {
+  --primery-tex-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --bg-color: #ffffff;
+  --primery-bg-color: #2f303a;
+  --secondary-bg-color: #f5f4fa;
+  --white-color: #ffffff;
+  --bg-button-color: #188ce8;
+  --footer-tx-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: var(--primery-tex-color);
+  background-color: #ffffff;
+}
+
+.logo {
+  color: var(--logo-color);
+}
+.logo-web {
+  color: var(--accent-color);
+}
+/* Site nav */
+.site-nav {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Contacts */
+.contacts {
+  list-style: none;
+}
+.contacts .link {
+  color: var(--primery-tex-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--primery-bg-color);
+}
+.hero-title {
+  color: var(--white-color);
+}
+/* Button */
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.button:hover,
+.button:focus {
+  background-color: var(--bg-button-color);
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* List */
+
+.list {
+  list-style: none;
+}
+
+/* Features */
+.features {
+  list-style: none;
+}
+.feature-title {
+  color: var(--title-text-color);
+}
+
+/* Team */
+.team {
+  background-color: var(--secondary-bg-color);
+}
+.team .list-title {
+  color: var(--title-text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--primery-bg-color);
+}
+.footer-logo {
+  color: var(--white-color);
+}
+.address {
+  color: var(--white-color);
+}
+.footer-link {
+  color: var(--footer-tx-color);
+}
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
