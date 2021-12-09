@@ -26,10 +26,18 @@
 body {
   color: var(--primery-tex-color);
   background-color: #ffffff;
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
+/* Logo */
 .logo {
   color: var(--logo-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .logo-web {
   color: var(--accent-color);
@@ -44,6 +52,9 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -110,6 +121,10 @@ body {
 }
 .footer-logo {
   color: var(--white-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .address {
   color: var(--white-color);
