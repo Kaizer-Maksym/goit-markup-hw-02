@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
@@ -22,23 +27,23 @@
       </ul>
     </header>
     <main>
-      <section>
+      <section class="portfolio">
         <h1>Примеры работ</h1>
         <!-- Фильтр -->
-        <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <ul class="list">
+          <li><button type="button" class="button primary">Все</button></li>
+          <li><button type="button" class="button primary">Веб-сайты</button></li>
+          <li><button type="button" class="button primary">Приложения</button></li>
+          <li><button type="button" class="button primary">Дизайн</button></li>
+          <li><button type="button" class="button primary">Маркетинг</button></li>
         </ul>
         <!-- Примеры работ -->
-        <ul>
+        <ul class="list">
           <li>
             <a href="">
               <img src="./images/web.jpg" alt="Веб-сайт" width="370" height="294" />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="portfolio-title">Технокряк</h2>
+              <p class="inventory">Веб-сайт</p>
             </a>
           </li>
           <li>
@@ -49,8 +54,10 @@
                 width="370"
                 height="294"
               />
-              <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-              <p>Дизайн</p>
+              <h2 class="portfolio-title">
+                Постер <span lang="en">New Orlean vs Golden Star</span>
+              </h2>
+              <p class="inventory">Дизайн</p>
             </a>
           </li>
           <li>
@@ -61,22 +68,22 @@
                 width="370"
                 height="294"
               />
-              <h2>Ресторан <span lang="en">Seafood</span></h2>
-              <p>Приложение</p>
+              <h2 class="portfolio-title">Ресторан <span lang="en">Seafood</span></h2>
+              <p class="inventory">Приложение</p>
             </a>
           </li>
           <li>
             <a href="">
               <img src="./images/headphones.jpg" alt="Наушники" width="370" height="294" />
-              <h2>Проект <span lang="en">Prime</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="portfolio-title">Проект <span lang="en">Prime</span></h2>
+              <p class="inventory">Маркетинг</p>
             </a>
           </li>
           <li>
             <a href="">
               <img src="./images/boxes.jpg" alt="Две коробки" width="370" height="294" />
-              <h2>Проект <span lang="en">Boxes</span></h2>
-              <p>Приложение</p>
+              <h2 class="portfolio-title">Проект <span lang="en">Boxes</span></h2>
+              <p class="inventory">Приложение</p>
             </a>
           </li>
           <li>
@@ -87,15 +94,15 @@
                 width="370"
                 height="294"
               />
-              <h2 lang="en">Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <h2 lang="en" class="portfolio-title">Inspiration has no Borders</h2>
+              <p class="inventory">Веб-сайт</p>
             </a>
           </li>
           <li>
             <a href="">
               <img src="./images/magazine.jpg" alt="Журнал" width="370" height="294" />
-              <h2>Издание <span lang="en">Limited Edition</span></h2>
-              <p>Дизайн</p>
+              <h2 class="portfolio-title">Издание <span lang="en">Limited Edition</span></h2>
+              <p class="inventory">Дизайн</p>
             </a>
           </li>
           <li>
@@ -106,8 +113,8 @@
                 width="370"
                 height="294"
               />
-              <h2>Проект <span lang="en">LAB</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="portfolio-title">Проект <span lang="en">LAB</span></h2>
+              <p class="inventory">Маркетинг</p>
             </a>
           </li>
           <li>
@@ -118,8 +125,8 @@
                 width="370"
                 height="294"
               />
-              <h2 lang="en">Growing Business</h2>
-              <p>Приложение</p>
+              <h2 lang="en" class="portfolio-title">Growing Business</h2>
+              <p class="inventory">Приложение</p>
             </a>
           </li>
         </ul>
