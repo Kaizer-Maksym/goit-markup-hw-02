@@ -33,6 +33,13 @@ body {
 }
 
 /* Logo */
+
+.logo,
+.link,
+.link.current {
+  text-decoration: none;
+}
+
 .logo {
   color: var(--logo-color);
   font-family: Raleway;
@@ -205,6 +212,11 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+}
+.address,
+.footer-link,
+.footer-logo {
+  text-decoration: none;
 }
 
 .address {
